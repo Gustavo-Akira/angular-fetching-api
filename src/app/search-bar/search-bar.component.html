@@ -1,0 +1,5 @@
+<form (submit)="onSubmit($event)">
+    <label class="label">Term</label>
+    <input placeholder="Enter the term do you want to search" class="input" (input)="term=$event.target.value"/>
+    <button class="button is-primary">Send</button>
+</form>
